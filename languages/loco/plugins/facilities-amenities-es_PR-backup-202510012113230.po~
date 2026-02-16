@@ -1,0 +1,423 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Facilities\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-01 20:43+0000\n"
+"PO-Revision-Date: 2025-10-01 20:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: Spanish (Puerto Rico)\n"
+"Language: es_PR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.8.3; php-8.4.5\n"
+"X-Domain: facilities-amenities"
+
+#: includes/submenus/submenu-category-add-page.php:86
+msgid "-- Select Category --"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:29
+#: includes/submenus/submenu-categories-page.php:84
+msgid "A category with that name already exists."
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"A plugin that will list all Facilities and Amenities for your campground "
+"website."
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:253
+msgid "Add Category"
+msgstr ""
+
+#: includes/admin-page.php:300
+#: includes/submenus/submenu-category-options-page.php:164
+msgid "Add Category Options"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:215
+msgid "Add New Category"
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:179
+msgid "Add New Option"
+msgstr ""
+
+#. %s: category name
+#: includes/submenus/submenu-category-add-page.php:117
+#, php-format
+msgid "Adding Options for Category: %s"
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:46
+msgid "All Bottom Section fields are required. Nothing was saved."
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:149
+#: includes/submenus/submenu-main-sections-page.php:198
+msgid "Are you sure you want to delete the fields from the database?"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:137
+#: includes/submenus/submenu-category-add-page.php:77
+#: includes/submenus/submenu-category-options-page.php:74
+msgid "Back to list"
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:19
+msgid "Both Top Title and Top Description are required. Nothing was saved."
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:163
+msgid "Bottom Area Section"
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:177
+msgid "Bottom Main Title"
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:116
+msgid "Bottom Section"
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:52
+msgid "Bottom Section settings saved."
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:227
+#: includes/submenus/submenu-main-sections-page.php:185
+msgid "Button Link URL"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:221
+#: includes/submenus/submenu-main-sections-page.php:181
+msgid "Button Text"
+msgstr ""
+
+#: includes/admin-page.php:34 includes/admin-page.php:35
+#: includes/admin-page.php:178
+msgid "Categories"
+msgstr ""
+
+#: includes/admin-page.php:190
+msgid "Categories template not found."
+msgstr ""
+
+#: includes/classes/class-facamen-categoryoptions-table.php:29
+#: includes/submenus/submenu-categories-page.php:219
+#: includes/submenus/submenu-category-options-page.php:82
+msgid "Category"
+msgstr ""
+
+#: includes/admin-page.php:52 includes/admin-page.php:53
+msgid "Category Add Option"
+msgstr ""
+
+#: includes/admin-page.php:311
+msgid "Category Add Option template not found."
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:40
+msgid "Category added successfully."
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:57
+msgid "Category and its associated options deleted."
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:106
+msgid "Category and Title required."
+msgstr ""
+
+#: includes/admin-page.php:43 includes/admin-page.php:44
+#: includes/admin-page.php:212
+msgid "Category Options"
+msgstr ""
+
+#: includes/admin-page.php:224
+msgid "Category Options template not found."
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:103
+msgid "Category updated."
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:82
+msgid "Choose a Category to assign an Option"
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:123
+msgid "Default Icon Unless You Change It:"
+msgstr ""
+
+#: includes/classes/class-facamen-categories-table.php:147
+#: includes/classes/class-facamen-categoryoptions-table.php:197
+msgid "Delete"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:59
+msgid "Delete failed: security check"
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:149
+#: includes/submenus/submenu-main-sections-page.php:198
+msgid "Delete Fields"
+msgstr ""
+
+#: includes/classes/class-facamen-categoryoptions-table.php:31
+#: includes/submenus/submenu-category-add-page.php:172
+#: includes/submenus/submenu-category-options-page.php:110
+msgid "Description"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:136
+msgid "Edit Category"
+msgstr ""
+
+#: includes/submenus/submenu-category-options-page.php:73
+msgid "Edit Category Option"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:141
+msgid "Enable / Disable The Button Options Controls"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:190
+msgid ""
+"Enable / Disable The Checkbox Must Be Selected To Show The Category On "
+"Frontend."
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:48
+#: includes/submenus/submenu-category-options-page.php:136
+msgid "Error:"
+msgstr ""
+
+#. Name of the plugin
+#: includes/admin-page.php:14 includes/admin-page.php:15
+msgid "Facilities"
+msgstr ""
+
+#: includes/admin-page.php:287
+msgid "Facilities Table was successfully overwritten."
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:70
+#: includes/submenus/submenu-category-options-page.php:158
+msgid "Failed to add option."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.connectrv.com"
+msgstr ""
+
+#: includes/classes/class-facamen-categoryoptions-table.php:30
+#: includes/submenus/submenu-category-options-page.php:88
+msgid "Icon"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:231
+msgid "Image URL"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:132
+msgid "Invalid category ID."
+msgstr ""
+
+#: includes/submenus/submenu-category-options-page.php:53
+msgid "Item deleted successfully."
+msgstr ""
+
+#: includes/submenus/submenu-category-options-page.php:42
+msgid "Item updated successfully."
+msgstr ""
+
+#. Author of the plugin
+msgid "Jasen Haslacker"
+msgstr ""
+
+#: includes/admin-page.php:25 includes/admin-page.php:26
+#: includes/admin-page.php:242
+msgid "Main Sections"
+msgstr ""
+
+#: includes/admin-page.php:254
+msgid "Main sections template not found."
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:73
+#: includes/submenus/submenu-main-sections-page.php:97
+msgid "Nothing to delete. Fields are already empty."
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:64
+#: includes/submenus/submenu-category-options-page.php:152
+msgid "Option added successfully!"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:222
+#: includes/submenus/submenu-categories-page.php:228
+msgid "optional"
+msgstr ""
+
+#: includes/admin-page.php:68 includes/admin-page.php:69
+msgid "Permissions / Roles"
+msgstr ""
+
+#: includes/submenus/submenu-permissions-roles-page.php:15
+msgid "Permissions / Roles Settings"
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:49
+#: includes/submenus/submenu-category-options-page.php:137
+msgid "Please enter a description."
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:193
+#: includes/submenus/submenu-category-options-page.php:116
+#: includes/submenus/submenu-main-sections-page.php:146
+#: includes/submenus/submenu-main-sections-page.php:195
+msgid "Save Changes"
+msgstr ""
+
+#: includes/submenus/submenu-permissions-roles-page.php:48
+msgid "Save Permissions"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:266
+msgid "Search Categories"
+msgstr ""
+
+#: includes/submenus/submenu-category-options-page.php:187
+msgid "Search Category"
+msgstr ""
+
+#: includes/submenus/submenu-category-options-page.php:185
+msgid "Search Category Options:"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:109
+msgid "Security check failed on edit."
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:270
+msgid "See All Records"
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:93
+msgid "Select"
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:142
+msgid "Select an Icon to Override"
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:166
+#: includes/submenus/submenu-category-options-page.php:103
+msgid "Selected Icon:"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:283
+#: includes/submenus/submenu-category-options-page.php:204
+msgid "Selected items deleted successfully."
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:121
+#: includes/submenus/submenu-main-sections-page.php:162
+#, php-format
+msgid "Shortcode to use - %s"
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:132
+msgid "Show Icon Picker"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:225
+msgid "Title"
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:79
+msgid "Title, Text and Link URL fields deleted from the database."
+msgstr ""
+
+#: includes/submenus/submenu-category-options-page.php:165
+msgid "To view all Categories, clear out the Search Textbox."
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:122
+msgid "Top Area Section"
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:139
+msgid "Top Description"
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:135
+msgid "Top Main Title"
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:103
+msgid "Top Main Title and Top Description fields deleted from the database."
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:115
+msgid "Top Section"
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:24
+msgid "Top Section settings saved."
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:169
+#: includes/submenus/submenu-categories-page.php:241
+msgid "Upload Image"
+msgstr ""
+
+#: includes/admin-page.php:172 includes/admin-page.php:207
+#: includes/admin-page.php:237 includes/admin-page.php:282
+#: includes/admin-page.php:295
+#: includes/submenus/submenu-permissions-roles-page.php:6
+msgid "You do not have access to view or edit this plugin."
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:62
+msgid "You do not have permission to delete this category."
+msgstr ""
+
+#: includes/submenus/submenu-category-options-page.php:56
+msgid "You do not have permission to delete this item."
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:85
+#: includes/submenus/submenu-main-sections-page.php:109
+msgid "You do not have permission to delete this section."
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:123
+#: includes/submenus/submenu-category-options-page.php:63
+#: includes/submenus/submenu-main-sections-page.php:31
+#: includes/submenus/submenu-main-sections-page.php:59
+msgid "You do not have permission to edit this section."
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:152
+#: includes/submenus/submenu-main-sections-page.php:201
+msgid "You do not have permission to make changes."
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:7
+msgid "You do not have permission to the add category options."
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:125
+#: includes/submenus/submenu-categories-page.php:197
+#: includes/submenus/submenu-category-add-page.php:9
+#: includes/submenus/submenu-category-add-page.php:192
+#: includes/submenus/submenu-category-options-page.php:65
+#: includes/submenus/submenu-category-options-page.php:120
+msgid "← Back to list"
+msgstr ""

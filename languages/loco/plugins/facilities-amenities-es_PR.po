@@ -1,0 +1,668 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Facilities\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-10-01 20:43+0000\n"
+"PO-Revision-Date: 2026-02-04 15:51+0000\n"
+"Last-Translator: \n"
+"Language-Team: Spanish (Puerto Rico)\n"
+"Language: es_PR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.8.3; php-8.4.5\n"
+"X-Domain: facilities-amenities"
+
+#: includes/submenus/submenu-categories-page.php:323
+#: includes/submenus/submenu-category-options-page.php:259
+msgctxt ""
+"\n"
+"Los elementos seleccionados se eliminaron de forma permanente."
+msgid "Selected items permanently deleted."
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:157
+#: includes/submenus/submenu-main-sections-page.php:217
+msgctxt ""
+"\n"
+"¿Está seguro de que desea eliminar los campos de la base de datos?"
+msgid "Are you sure you want to delete the fields from the database?"
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:86
+msgctxt "-- Seleccionar Categoría --"
+msgid "-- Select Category --"
+msgstr ""
+
+#: includes/classes/class-facamen-categories-table.php:26
+#: includes/classes/class-facamen-categoryoptions-table.php:32
+msgctxt "Activado"
+msgid "Enabled"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:245
+msgctxt "Agregar nueva categoría"
+msgid "Add New Category"
+msgstr ""
+
+#: includes/submenus/submenu-category-options-page.php:198
+msgctxt "Agregar nuevas opciones de categoría"
+msgid "Add New Category Options"
+msgstr ""
+
+#: includes/admin-page.php:319
+#: includes/submenus/submenu-category-options-page.php:199
+msgctxt "Agregar opciones de categoría"
+msgid "Add Category Options"
+msgstr ""
+
+#. %s: category name
+#: includes/submenus/submenu-category-add-page.php:117
+#, php-format
+msgctxt "Agregar opciones para la categoría: %s"
+msgid "Adding Options for Category: %s"
+msgstr ""
+
+#: includes/submenus/submenu-category-options-page.php:45
+msgctxt "Artículo actualizado correctamente."
+msgid "Item updated successfully."
+msgstr ""
+
+#: includes/submenus/submenu-category-options-page.php:66
+msgctxt "Artículo restaurado exitosamente."
+msgid "Item restored successfully."
+msgstr ""
+
+#: includes/classes/class-facamen-categoryoptions-table.php:221
+#: includes/classes/class-facamen-categoryoptions-table.php:325
+msgctxt "Basura"
+msgid "Trash"
+msgstr ""
+
+#: includes/classes/class-facamen-categories-table.php:21
+#: includes/classes/class-facamen-categoryoptions-table.php:29
+#: includes/submenus/submenu-categories-page.php:249
+#: includes/submenus/submenu-category-options-page.php:107
+msgctxt "Categoría"
+msgid "Category"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:103
+msgctxt "Categoría actualizada."
+msgid "Category updated."
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:40
+msgctxt "Categoría agregada exitosamente."
+msgid "Category added successfully."
+msgstr ""
+
+#: includes/admin-page.php:330
+msgctxt "Categoría Agregar opción plantilla no encontrada."
+msgid "Category Add Option template not found."
+msgstr ""
+
+#: includes/submenus/submenu-category-options-page.php:223
+msgctxt "Categoría de búsqueda"
+msgid "Search Category"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:226
+msgctxt "Categoría eliminada permanentemente."
+msgid "Category permanently deleted."
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:57
+msgctxt "Categoría movida a la papelera."
+msgid "Category moved to trash."
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:209
+msgctxt "Categoría restaurada exitosamente."
+msgid "Category restored successfully."
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:106
+msgctxt "Categoría y título requeridos."
+msgid "Category and Title required."
+msgstr ""
+
+#: includes/admin-page.php:53 includes/admin-page.php:54
+#: includes/admin-page.php:197
+msgctxt "Categorías"
+msgid "Categories"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:296
+msgctxt "Categorías de búsqueda"
+msgid "Search Categories"
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:82
+msgctxt ""
+"Comience seleccionando una categoría del menú desplegable. Una vez "
+"seleccionada, asígnele una opción."
+msgid ""
+"Start by selecting a category from the dropdown. Once selected, assign an "
+"option to that category."
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:55
+msgctxt "Configuración de la sección inferior guardada."
+msgid "Bottom Section settings saved."
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:24
+msgctxt "Configuración de la sección superior guardada."
+msgid "Top Section settings saved."
+msgstr ""
+
+#: includes/submenus/submenu-permissions-roles-page.php:15
+msgctxt "Configuración de permisos/roles"
+msgid "Permissions / Roles Settings"
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:129
+#: includes/submenus/submenu-main-sections-page.php:170
+#, php-format
+msgctxt "Código corto a utilizar - %s"
+msgid "Shortcode to use - %s"
+msgstr ""
+
+#: includes/classes/class-facamen-categoryoptions-table.php:31
+#: includes/submenus/submenu-category-options-page.php:135
+msgctxt "Descripción"
+msgid "Description"
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:147
+msgctxt "Descripción superior"
+msgid "Top Description"
+msgstr ""
+
+#: includes/classes/class-facamen-categoryoptions-table.php:215
+msgctxt "Editar"
+msgid "Edit"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:136
+msgctxt "Editar categoría"
+msgid "Edit Category"
+msgstr ""
+
+#: includes/submenus/submenu-category-options-page.php:97
+msgctxt "Editar opción de categoría"
+msgid "Edit Category Option"
+msgstr ""
+
+#: includes/submenus/submenu-category-options-page.php:77
+msgctxt "Elemento eliminado permanentemente."
+msgid "Item permanently deleted."
+msgstr ""
+
+#: includes/submenus/submenu-category-options-page.php:56
+msgctxt "Elemento movido a la papelera."
+msgid "Item moved to trash."
+msgstr ""
+
+#: includes/submenus/submenu-category-options-page.php:254
+msgctxt "Elementos seleccionados restaurados."
+msgid "Selected items restored."
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:142
+msgctxt "Elige un nuevo icono"
+msgid "Choose a new icon"
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:157
+#: includes/submenus/submenu-main-sections-page.php:217
+msgctxt "Eliminar campos"
+msgid "Delete Fields"
+msgstr ""
+
+#: includes/classes/class-facamen-categories-table.php:170
+#: includes/classes/class-facamen-categoryoptions-table.php:206
+#: includes/classes/class-facamen-categoryoptions-table.php:244
+msgctxt "Eliminar permanentemente"
+msgid "Delete Permanently"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:59
+msgctxt "Error de eliminación: comprobación de seguridad"
+msgid "Delete failed: security check"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:228
+msgctxt "Error en la eliminación permanente: comprobación de seguridad."
+msgid "Permanent delete failed: security check."
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:211
+msgctxt "Error en la restauración: comprobación de seguridad"
+msgid "Restore failed: security check"
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:48
+#: includes/submenus/submenu-category-options-page.php:170
+msgctxt "Error:"
+msgid "Error:"
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:166
+msgctxt "Este es el icono que seleccionaste:"
+msgid "This is your selected icon:"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:193
+#: includes/submenus/submenu-categories-page.php:283
+#: includes/submenus/submenu-category-add-page.php:179
+#: includes/submenus/submenu-category-options-page.php:150
+#: includes/submenus/submenu-main-sections-page.php:154
+#: includes/submenus/submenu-main-sections-page.php:214
+#: includes/submenus/submenu-permissions-roles-page.php:48
+msgctxt "Guardar cambios"
+msgid "Save Changes"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:190
+msgctxt ""
+"Habilitar / Deshabilitar La casilla de verificación debe estar seleccionada "
+"para mostrar la categoría en la interfaz."
+msgid ""
+"Enable / Disable The Checkbox Must Be Selected To Show The Category On "
+"Frontend."
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:141
+msgctxt "Habilitar/Deshabilitar los controles de opciones de los botones"
+msgid "Enable / Disable The Button Options Controls"
+msgstr ""
+
+#: includes/submenus/submenu-category-options-page.php:144
+msgctxt "Habilite esta opción para mostrarla en el frontend."
+msgid "Enable this option to display it on the frontend."
+msgstr ""
+
+#. Author URI of the plugin
+msgctxt "https://www.connectrv.com"
+msgid "https://www.connectrv.com"
+msgstr ""
+
+#: includes/classes/class-facamen-categoryoptions-table.php:30
+#: includes/submenus/submenu-category-options-page.php:113
+msgctxt "Icono"
+msgid "Icon"
+msgstr ""
+
+#: includes/submenus/submenu-category-options-page.php:128
+msgctxt "Icono guardado actualmente:"
+msgid "Currently saved icon:"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:132
+msgctxt "ID de categoría no válida"
+msgid "Invalid category ID."
+msgstr ""
+
+#: includes/classes/class-facamen-categories-table.php:25
+msgctxt "Imagen"
+msgid "Image"
+msgstr ""
+
+#. Name of the plugin
+#: includes/admin-page.php:33 includes/admin-page.php:34
+msgctxt "Instalaciones"
+msgid "Facilities"
+msgstr ""
+
+#. Author of the plugin
+msgctxt "Jasen Haslacker"
+msgid "Jasen Haslacker"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:109
+msgctxt "La comprobación de seguridad falló durante la edición."
+msgid "Security check failed on edit."
+msgstr ""
+
+#: includes/admin-page.php:306
+msgctxt "La tabla de instalaciones se sobrescribió correctamente."
+msgid "Facilities Table was successfully overwritten."
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:111
+msgctxt ""
+"Los campos Título principal y Descripción principal se eliminaron de la base "
+"de datos."
+msgid "Top Main Title and Top Description fields deleted from the database."
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:87
+msgctxt ""
+"Los campos Título, Texto y URL del enlace se eliminaron de la base de datos."
+msgid "Title, Text and Link URL fields deleted from the database."
+msgstr ""
+
+#: includes/submenus/submenu-category-options-page.php:243
+msgctxt "Los elementos seleccionados se movieron a la papelera exitosamente."
+msgid "Selected items moved to trash successfully."
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:313
+#: includes/submenus/submenu-category-options-page.php:249
+msgctxt "Los elementos seleccionados se movieron a la papelera."
+msgid "Selected items moved to trash."
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:318
+msgctxt "Los elementos seleccionados se restauraron correctamente."
+msgid "Selected items restored successfully."
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:192
+msgctxt "Marque para mostrar la sección inferior en el frontend."
+msgid "Check to display the bottom section on the frontend."
+msgstr ""
+
+#: includes/classes/class-facamen-categories-table.php:174
+#: includes/classes/class-facamen-categoryoptions-table.php:248
+msgctxt "Mover a la papelera"
+msgid "Move to Trash"
+msgstr ""
+
+#: includes/classes/class-facamen-categoryoptions-table.php:64
+msgctxt "No"
+msgid "No"
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:80
+#: includes/submenus/submenu-main-sections-page.php:105
+msgctxt "No hay nada que borrar. Los campos ya están vacíos."
+msgid "Nothing to delete. Fields are already empty."
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:70
+#: includes/submenus/submenu-category-options-page.php:192
+msgctxt "No se pudo agregar la opción."
+msgid "Failed to add option."
+msgstr ""
+
+#: includes/admin-page.php:191 includes/admin-page.php:226
+#: includes/admin-page.php:256 includes/admin-page.php:301
+#: includes/admin-page.php:314
+#: includes/submenus/submenu-permissions-roles-page.php:6
+msgctxt "No tienes acceso para ver o editar este complemento."
+msgid "You do not have access to view or edit this plugin."
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:7
+msgctxt "No tienes permiso para agregar las opciones de categoría."
+msgid "You do not have permission to the add category options."
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:123
+#: includes/submenus/submenu-category-options-page.php:87
+#: includes/submenus/submenu-main-sections-page.php:31
+#: includes/submenus/submenu-main-sections-page.php:66
+msgctxt "No tienes permiso para editar esta sección."
+msgid "You do not have permission to edit this section."
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:93
+#: includes/submenus/submenu-main-sections-page.php:117
+msgctxt "No tienes permiso para eliminar esta sección."
+msgid "You do not have permission to delete this section."
+msgstr ""
+
+#: includes/submenus/submenu-category-options-page.php:80
+msgctxt "No tienes permiso para eliminar este elemento."
+msgid "You do not have permission to delete this item."
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:62
+msgctxt "No tienes permiso para mover esta categoría a la papelera."
+msgid "You do not have permission to move this category to trash."
+msgstr ""
+
+#: includes/submenus/submenu-category-options-page.php:59
+msgctxt "No tienes permiso para mover este elemento a la papelera."
+msgid "You do not have permission to move this item to trash."
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:160
+#: includes/submenus/submenu-main-sections-page.php:220
+msgctxt "No tienes permiso para realizar cambios."
+msgid "You do not have permission to make changes."
+msgstr ""
+
+#: includes/submenus/submenu-category-options-page.php:69
+msgctxt "No tienes permiso para restaurar este elemento."
+msgid "You do not have permission to restore this item."
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:172
+msgctxt "Nueva descripción"
+msgid "New Description"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:252
+#: includes/submenus/submenu-categories-page.php:258
+msgctxt "opcional"
+msgid "optional"
+msgstr ""
+
+#: includes/admin-page.php:62 includes/admin-page.php:63
+#: includes/admin-page.php:231
+msgctxt "Opciones de categoría"
+msgid "Category Options"
+msgstr ""
+
+#: includes/submenus/submenu-category-options-page.php:221
+msgctxt "Opciones de categoría de búsqueda:"
+msgid "Search Category Options:"
+msgstr ""
+
+#: includes/admin-page.php:71 includes/admin-page.php:72
+msgctxt "Opción de agregar categoría"
+msgid "Category Add Option"
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:132
+msgctxt "Palanca"
+msgid "Toggle"
+msgstr ""
+
+#: includes/submenus/submenu-category-options-page.php:200
+msgctxt "Para ver todas las categorías, borre el cuadro de texto de búsqueda."
+msgid "To view all Categories, clear out the Search Textbox."
+msgstr ""
+
+#: includes/admin-page.php:87 includes/admin-page.php:88
+msgctxt "Permisos / Roles"
+msgid "Permissions / Roles"
+msgstr ""
+
+#: includes/admin-page.php:209
+msgctxt "Plantilla de categorías no encontrada."
+msgid "Categories template not found."
+msgstr ""
+
+#: includes/admin-page.php:243
+msgctxt "Plantilla de opciones de categoría no encontrada."
+msgid "Category Options template not found."
+msgstr ""
+
+#: includes/admin-page.php:273
+msgctxt "Plantilla de secciones principales no encontrada."
+msgid "Main sections template not found."
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:49
+#: includes/submenus/submenu-category-options-page.php:171
+msgctxt "Por favor ingrese una descripción."
+msgid "Please enter a description."
+msgstr ""
+
+#: includes/classes/class-facamen-categories-table.php:169
+#: includes/classes/class-facamen-categoryoptions-table.php:200
+#: includes/classes/class-facamen-categoryoptions-table.php:243
+msgctxt "Restaurar"
+msgid "Restore"
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:19
+msgctxt ""
+"Se requieren tanto el título principal como la descripción principal. No se "
+"guardó nada."
+msgid "Both Top Title and Top Description are required. Nothing was saved."
+msgstr ""
+
+#: includes/admin-page.php:44 includes/admin-page.php:45
+#: includes/admin-page.php:261
+msgctxt "Secciones principales"
+msgid "Main Sections"
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:171
+msgctxt "Sección del área inferior"
+msgid "Bottom Area Section"
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:130
+msgctxt "Sección del área superior"
+msgid "Top Area Section"
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:124
+msgctxt "Sección inferior"
+msgid "Bottom Section"
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:123
+msgctxt "Sección superior"
+msgid "Top Section"
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:93
+msgctxt "Seleccionar"
+msgid "Select"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:169
+#: includes/submenus/submenu-categories-page.php:271
+msgctxt "Subir imagen"
+msgid "Upload Image"
+msgstr ""
+
+#: includes/classes/class-facamen-categoryoptions-table.php:64
+msgctxt "Sí"
+msgid "Yes"
+msgstr ""
+
+#: includes/classes/class-facamen-categories-table.php:23
+#: includes/submenus/submenu-categories-page.php:251
+#: includes/submenus/submenu-main-sections-page.php:200
+msgctxt "Texto del botón"
+msgid "Button Text"
+msgstr ""
+
+#: includes/classes/class-facamen-categoryoptions-table.php:316
+msgctxt "Todo"
+msgid "All"
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:48
+msgctxt ""
+"Todos los campos de la sección inferior son obligatorios. No se ha guardado "
+"nada."
+msgid "All Bottom Section fields are required. Nothing was saved."
+msgstr ""
+
+#: includes/classes/class-facamen-categories-table.php:22
+#: includes/submenus/submenu-categories-page.php:255
+msgctxt "Título"
+msgid "Title"
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:196
+msgctxt "Título principal inferior"
+msgid "Bottom Main Title"
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:143
+msgctxt "Título principal superior"
+msgid "Top Main Title"
+msgstr ""
+
+#. Description of the plugin
+msgctxt ""
+"Un complemento que enumerará todas las instalaciones y servicios para el "
+"sitio web de su camping."
+msgid ""
+"A plugin that will list all Facilities and Amenities for your campground "
+"website."
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:261
+msgctxt "URL de la imagen"
+msgid "Image URL"
+msgstr ""
+
+#: includes/classes/class-facamen-categories-table.php:24
+#: includes/submenus/submenu-categories-page.php:257
+#: includes/submenus/submenu-main-sections-page.php:204
+msgctxt "URL del enlace del botón"
+msgid "Button Link URL"
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:123
+msgctxt "Utiliza este icono predeterminado a menos que se modifique:"
+msgid "Uses this default icon unless changed:"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:300
+msgctxt "Ver todos los registros"
+msgid "See All Records"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:137
+#: includes/submenus/submenu-category-add-page.php:77
+#: includes/submenus/submenu-category-options-page.php:98
+msgctxt "volver a la lista"
+msgid "Back to list"
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:29
+#: includes/submenus/submenu-categories-page.php:84
+msgctxt "Ya existe una categoría con ese nombre."
+msgid "A category with that name already exists."
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:64
+#: includes/submenus/submenu-category-options-page.php:186
+msgctxt "¡Opción agregada exitosamente!"
+msgid "Option added successfully!"
+msgstr ""
+
+#: includes/submenus/submenu-main-sections-page.php:187
+msgctxt "¿Mostrar sección inferior?"
+msgid "Show Bottom Section?"
+msgstr ""
+
+#: includes/submenus/submenu-category-add-page.php:129
+msgctxt "¿Quieres un ícono diferente? Activa el interruptor para ver más."
+msgid "Want a different icon? Turn on the toggle to see more."
+msgstr ""
+
+#: includes/submenus/submenu-categories-page.php:125
+#: includes/submenus/submenu-categories-page.php:197
+#: includes/submenus/submenu-category-add-page.php:9
+#: includes/submenus/submenu-category-add-page.php:192
+#: includes/submenus/submenu-category-options-page.php:89
+#: includes/submenus/submenu-category-options-page.php:154
+msgctxt "← Volver a la lista"
+msgid "← Back to list"
+msgstr ""

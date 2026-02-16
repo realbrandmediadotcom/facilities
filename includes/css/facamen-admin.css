@@ -1,0 +1,374 @@
+.facamen-js-field {
+  visibility: hidden !important;
+  opacity: 0 !important;
+  /* transition: opacity 0.9s ease, visibility 0s linear 0.9s; */
+}
+
+.js-enabled .facamen-js-field {
+  visibility: visible !important;
+  opacity: 1 !important;
+  /* transition: opacity 0.9s ease, visibility 0s linear 0.9s; */
+  transition:
+    opacity 0.1s ease,
+    visibility 0s linear 0.1s;
+}
+
+.tab-content {
+  padding: 10px 0;
+}
+
+#adminmenu a[href$="wproleswptabs_options"] {
+  font-size: 12px !important;
+}
+
+#adminmenu .toplevel_page_facamen-options .wp-menu-image:before {
+  color: yellow !important;
+}
+
+#contextual-help-link {
+  background-color: yellow !important;
+}
+
+.media-button-select {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+/* Add spacing between inputs */
+/* #open_new_tab {
+    margin-right: 10px;
+}  */
+#bottom_buttonlinkurl {
+  margin-right: 10px;
+}
+
+#buttonlinkurl {
+  margin-right: 10px;
+}
+
+.red-label {
+  color: red;
+}
+
+.delete-permanently {
+  /* color: #a00 !important; */
+  color: red !important;
+}
+
+.trash-color {
+  color: red !important;
+}
+
+h4 strong {
+  font-weight: bold !important;
+}
+
+/* Roles */
+#selected-roles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.role-tag {
+  background-color: #3871ac !important;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+}
+
+.facamen-select {
+  height: 110px !important;
+  width: 200px !important;
+}
+
+.facamen-topandbottom {
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+}
+
+.facamen-form-field {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column; /* puts label above input */
+}
+
+.facamen-form-field label {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.moveRight {
+  margin-left: 10px !important;
+}
+
+.moveLeft {
+  margin-right: 5px !important;
+}
+
+.spaced-hr {
+  margin-bottom: 20px; /* adjust as needed */
+}
+
+.spaced-label {
+  display: block;
+  margin-top: 20px; /* only needed if <label> needs more space */
+}
+
+.space-bottom {
+  margin-bottom: 20px !important;
+}
+
+.space-top {
+  margin-top: 20px !important;
+}
+
+.category-select-wrapper {
+  margin-bottom: 20px;
+}
+
+.long-input {
+  width: 400px;
+}
+
+.medium-input {
+  width: 200px;
+}
+
+.button-container {
+  display: flex;
+  /* Optional: Add spacing between buttons */
+  gap: 10px; /* or justify-content: space-around; etc. */
+}
+
+.div-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  justify-content: flex-start;
+  gap: 20px; /* spacing between tables */
+}
+
+.table-container {
+  border: 1px solid black;
+  margin: 10px;
+  min-width: 280px;
+  flex: 1 1 300px; /* allow responsiveness */
+  box-sizing: border-box;
+}
+
+.table-container td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .div-container {
+    flex-direction: column;
+  }
+
+  .table-container {
+    width: 100%;
+  }
+}
+
+/* fa css */
+.fa-icon-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 300px;
+}
+
+.fa-icon {
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-icon:hover {
+  border-color: #007cba;
+}
+
+.fa-icon.active {
+  background-color: #007cba;
+  color: white;
+  border-color: #007cba;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.fa-icon-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Toggle CSS*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+.switch input {
+  display: none;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 24px;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+input:checked + .slider {
+  background-color: #0073aa;
+}
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/* Make Enable column small */
+.wp-list-table .column-enable {
+  width: 85px;
+  text-align: center;
+  /* text-align: right; */
+}
+
+/* Make Button Link URL column wider */
+.wp-list-table .column-buttonlinkurl {
+  width: 500px;
+  word-break: break-all;
+}
+
+/* Make Image URL column wider */
+/* .wp-list-table .column-imagelinkurl {
+    width: 500px;
+    word-break: break-all;
+} */
+
+/* Select2 */
+.role-tag .remove-role {
+  margin-left: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.role-tag.fixed .remove-role {
+  display: none;
+}
+
+.role-dropdown {
+  position: relative;
+}
+
+#role-dropdown-toggle {
+  padding: 5px 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#role-options {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  background-color: #000;
+  color: #fff;
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  display: none;
+  border-radius: 5px;
+  z-index: 10;
+  width: 200px;
+}
+
+#role-options li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+#role-options li:hover {
+  background-color: #333 !important;
+}
+
+.select2-selection__choice[title="Administrator"] {
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 4px 8px !important;
+  min-width: 100px !important;
+}
+
+.select2-selection__choice[title="Administrator"] {
+  background-color: #3871ac !important;
+  color: #fff !important;
+  justify-content: center !important;
+}
+
+.select2-selection__choice[title="Administrator"]
+  .select2-selection__choice__remove {
+  display: none !important;
+}
+
+.select2-selection__choice {
+  justify-content: space-between !important;
+  padding: 4px 18px !important;
+  margin-top: 10px !important;
+  margin-bottom: 5px !important;
+}
+
+.select2-selection__choice__display:not([title="Administrator"]) {
+  margin-left: 5px !important;
+}
+
+.select2-results__option--highlighted.select2-results__option--selectable {
+  background-color: #000000 !important;
+  color: white;
+}
+
+.select2-selection--single:focus {
+  border: 1px solid #000000 !important;
+}
+
+.select2-selection--single {
+  border: 1px solid #000000 !important;
+}
+
+.select2-selection--multiple:focus {
+  border: 1px solid #000000 !important;
+}
+
+.select2-dropdown {
+  border-color: #000000 !important;
+}

@@ -1,0 +1,329 @@
+/* body {
+  overflow-x: hidden;
+} */
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.abovefooter-container {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+
+  background: transparent;
+  color: black;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  /* z-index: 10; */
+}
+
+.abovefooter-container h2,
+.abovefooter-container h5,
+.abovefooter-container .wp-block-button {
+  position: relative;
+  z-index: 10; /* <-- ensures content sits ABOVE the overlay */
+}
+
+.abovefooter-container .facamen-overlay {
+  z-index: 1; /* overlay is below the text */
+}
+
+/* Stack layout on mobile */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container.reverse {
+    flex-direction: column;
+  }
+
+  .image-right {
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+/* Force full-width layout no matter the theme */
+.facamen-fullwidth-wrapper {
+  /* width: 100vw; */
+  max-width: 100vw;
+  /* width: 70vw; */
+  /* max-width: 70vw; */
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
+  padding: 40px 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.facamen-fullwidth-wrapper * {
+  box-sizing: border-box;
+}
+
+.facamen-fullwidth-wrapper .facamen-inner-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.facamen-fullwidth-wrapper .warning {
+  background-color: #ccf;
+}
+.facamen-fullwidth-wrapper #danger {
+  background-color: #fcc;
+}
+
+/* Headings and Paragraphs */
+.facamen-fullwidth-wrapper .wp-block-heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.facamen-fullwidth-wrapper .wp-block-paragraph {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.facamen-fullwidth-wrapper .left-align {
+  text-align: left !important;
+}
+
+.facamen-fullwidth-wrapper .spacer-bottom {
+  margin-bottom: 20px !important;
+}
+
+.facamen-fullwidth-wrapper .spacer-top {
+  margin-top: 20px !important;
+}
+
+/* Container */
+.facamen-fullwidth-wrapper .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 1200px;
+}
+
+.facamen-fullwidth-wrapper .container h2.wp-block-heading {
+  text-align: left !important;
+}
+
+.facamen-fullwidth-wrapper .text-content {
+  flex: 1 1 300px;
+  padding-left: 0 !important;
+}
+
+.facamen-fullwidth-wrapper .centered {
+  padding-top: 2rem; /* Padding above the content */
+  padding-bottom: 2rem; /* Padding below the content */
+  text-align: center; /* Optional: ensures text stays centered */
+}
+
+.facamen-fullwidth-wrapper .container.reverse {
+  display: flex;
+  flex-direction: row; /* make sure it’s left to right */
+  align-items: center; /* vertically center if you want */
+  gap: 20px; /* optional spacing */
+}
+
+.facamen-fullwidth-wrapper .container.reverse .image-left {
+  order: 0; /* image first */
+  max-width: 60%; /* or whatever width you want */
+  height: auto;
+}
+
+.facamen-fullwidth-wrapper .container.reverse .text-content {
+  order: 1;
+  max-width: 40%;
+  padding-left: 0 !important;
+}
+
+.facamen-fullwidth-wrapper .image-right {
+  float: none !important;
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+/* Lists */
+/* margin-left: -20px !important; */
+.facamen-fullwidth-wrapper .list-with-icons {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  margin-bottom: 2em;
+  margin-left: 0 !important;
+}
+
+.facamen-fullwidth-wrapper .list-with-icons li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.facamen-fullwidth-wrapper .list-with-icons li i {
+  flex-shrink: 0;
+  font-size: 1.1rem;
+  color: currentColor;
+  text-align: center;
+  width: 1.2em;
+}
+
+/* Responsive Icon & Text Sizing */
+@media (max-width: 768px) {
+  .facamen-fullwidth-wrapper .list-with-icons li {
+    font-size: 0.9em;
+  }
+
+  .facamen-fullwidth-wrapper .list-with-icons li i {
+    font-size: 0.8em;
+  }
+
+  .facamen-fullwidth-wrapper .wp-block-heading {
+    font-size: 1.5rem;
+  }
+
+  .facamen-fullwidth-wrapper .wp-block-paragraph {
+    font-size: 1rem;
+  }
+}
+
+/* Responsive Image */
+.facamen-fullwidth-wrapper .image-right {
+  width: 100%; /* take full width of container */
+  max-width: 600px; /* never grow wider than 600px */
+  height: 400px; /* fixed window height (adjust to taste) */
+  object-fit: cover; /* crop edges if needed, keeps proportions */
+  border: none !important;
+  flex-shrink: 0;
+  display: block;
+}
+
+.facamen-fullwidth-wrapper .image-right-border {
+  width: 100%; /* take full width of container */
+  max-width: 600px; /* never grow wider than 600px */
+  height: 400px; /* fixed window height (adjust to taste) */
+  object-fit: cover; /* crop edges if needed, keeps proportions */
+  border: 2px solid #000 !important;
+  flex-shrink: 0;
+  display: block;
+}
+
+/* Buttons */
+.facamen-fullwidth-wrapper .bottom-container {
+  text-align: center;
+  margin-top: 3rem;
+  padding-top: 3rem;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Initial hidden state */
+.facamen-fullwidth-wrapper .fade-in-down,
+.facamen-fullwidth-wrapper .fade-in-up {
+  opacity: 0;
+  transform: translateY(0);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* Slide down from top */
+.facamen-fullwidth-wrapper .fade-in-down {
+  transform: translateY(-40px);
+}
+
+/* Slide up from bottom */
+.facamen-fullwidth-wrapper .fade-in-up {
+  transform: translateY(40px);
+}
+
+/* When visible class is added */
+.facamen-fullwidth-wrapper .fade-in-down.visible,
+.facamen-fullwidth-wrapper .fade-in-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.facamen-fullwidth-wrapper #elbottom.visible {
+  transition-delay: 0.2s;
+}
+.facamen-fullwidth-wrapper #eltop.visible {
+  transition-delay: 0.4s;
+}
+
+/* Slide in from the LEFT */
+.facamen-fullwidth-wrapper .slide-in-left {
+  opacity: 0;
+  transform: translateX(-80px); /* start 80px to the LEFT */
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.facamen-fullwidth-wrapper .slide-in-left.visible {
+  opacity: 1;
+  transform: translateX(0); /* move to normal position */
+}
+
+/* Slide in from the RIGHT */
+.facamen-fullwidth-wrapper .slide-in-right {
+  opacity: 0;
+  transform: translateX(80px); /* start 80px to the RIGHT */
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.facamen-fullwidth-wrapper .slide-in-right.visible {
+  opacity: 1;
+  transform: translateX(0); /* move to normal position */
+}
+
+/* =======================
+   Vertical scroll animations
+   ======================= */
+
+/* Start invisible and offset */
+.facamen-fullwidth-wrapper .scroll-down,
+.facamen-fullwidth-wrapper .scroll-up {
+  opacity: 0;
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* Scroll-down starts slightly above */
+.facamen-fullwidth-wrapper .scroll-down {
+  transform: translateY(-50px);
+}
+
+/* Scroll-up starts slightly below */
+.facamen-fullwidth-wrapper .scroll-up {
+  transform: translateY(50px);
+}
+
+/* When visible */
+.facamen-fullwidth-wrapper .scroll-down.visible,
+.facamen-fullwidth-wrapper .scroll-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
