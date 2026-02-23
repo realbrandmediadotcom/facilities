@@ -2,8 +2,8 @@
 Contributors: jasenhaslacker
 Tags: facilities, amenities, events, announcements, useful information
 Requires at least: 5.8
-Tested up to: 6.9.0
-Stable tag: 1.2.2
+Tested up to: 6.9.1
+Stable tag: 1.2.3
 License: GPLv2 or later
 
 
@@ -271,6 +271,12 @@ The tables that the plugin creates are - facamen_categories, facamen_categoryopt
 
 
 == Changelog ==
+1.2.3
+* Refactored permissions system for improved architecture and separation of concerns
+* Added in-memory caching for roles lookup
+* Improved strict type comparisons for safer role checks
+* Hardened capability assignment logic
+
 1.2.2
 * Removed: Code button control in CSS.
 * Removed: Code that was no longer being used.

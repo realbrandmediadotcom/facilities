@@ -2,14 +2,14 @@
 /*
 * Plugin Name: Facilities
 * Description: A plugin that will list all Facilities and Amenities for your campground website.
-* Version: 1.2.2
+* Version: 1.2.3
 * Author: Jasen Haslacker
 * Author URI: https://realbrandmedia.com
 * Text Domain: facilities-amenities
 * Domain Path: /languages
 */
 
-define('FACAMEN_PLUGIN_VERSION', '1.2.2');
+define('FACAMEN_PLUGIN_VERSION', '1.2.3');
 define('FACAMEN_DB_VERSION', '1.1.1');
 
 // exit if directly accessed.

@@ -12,7 +12,22 @@ if ( facamen_user_is_subscriber() ) {
 });
  */
 $facamen_permissions = new Facamen_Permissions();
+
+/*
+|--------------------------------------------------------------------------
+| Handle Form Submission (ONLY when submitted)
+|--------------------------------------------------------------------------
+*/
+if (
+    isset($_POST['facamen_save_permissions']) &&
+    current_user_can('manage_options') &&
+    check_admin_referer('facamen_save_permissions')
+) {
+    $facamen_permissions->update_permissions($_POST);
+}
+
 $permissions = $facamen_permissions->map_permissions();
+
 
 /**
  * Define rows explicitly (NO foreach over permissions dump)
