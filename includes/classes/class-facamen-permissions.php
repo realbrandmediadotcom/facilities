@@ -3,13 +3,11 @@ if (!defined('ABSPATH')) exit;
 
 class Facamen_Permissions {
 
+    private $roles_cache = null;
     private $options;
 
     public function __construct() {
         $this->options = new Facamen_Options();
-
-        add_action('admin_init', [$this, 'update_permissions']);
-        $this->set_default_permissions();
     }
 
     public function map_permissions() {
@@ -21,9 +19,13 @@ class Facamen_Permissions {
     }
 
     public function set_default_permissions() {
-        if ($this->options->get('facamen_permissions_default')) return;
+
+        if ($this->options->get('facamen_permissions_default') === 'yes') {
+            return;
+        }
 
         $all_roles = ['administrator'];
+
         $permissions = [
             'facamen_permissions_create' => $all_roles,
             'facamen_permissions_edit'   => $all_roles,
@@ -39,17 +41,24 @@ class Facamen_Permissions {
     }
 
     public function assign_capabilities($permission, $role_names, $permissions_map = []) {
+
         if (empty($permissions_map)) {
             $permissions_map = $this->map_permissions();
         }
 
-        $all_roles = array_keys($this->get_roles());
-        $roles_to_remove = array_diff($all_roles, $role_names);
+		// Guard clause to prevent undefined index errors
+		if (!isset($permissions_map[$permission])) {
+			return;
+		}
+		
+        $all_roles = array_keys(wp_roles()->roles);
 
-        // Ensure administrator is always in roles with caps
+        // Always ensure administrator keeps caps
         if (!in_array('administrator', $role_names, true)) {
             $role_names[] = 'administrator';
         }
+
+        $roles_to_remove = array_diff($all_roles, $role_names);
 
         foreach ($role_names as $role_name) {
             $role = get_role($role_name);
@@ -72,14 +81,15 @@ class Facamen_Permissions {
         }
     }
 
-    public function update_permissions() {
-        if (!current_user_can('manage_options') || empty($_POST['facamen_save_permissions'])) return;
-        if (!check_admin_referer('facamen_save_permissions')) return;
+    public function update_permissions($posted_data) {
 
         $permissions = $this->map_permissions();
 
         foreach ($permissions as $perm => $caps) {
-            $roles = isset($_POST[$perm]) ? array_map('sanitize_text_field', $_POST[$perm]) : [];
+
+            $roles = isset($posted_data[$perm])
+                ? array_map('sanitize_text_field', $posted_data[$perm])
+                : [];
 
             if (!in_array('administrator', $roles, true)) {
                 $roles[] = 'administrator';
@@ -89,12 +99,18 @@ class Facamen_Permissions {
             $this->assign_capabilities($perm, $roles, $permissions);
         }
 
-        add_settings_error('facamen_permissions', 'permissions_saved', __('Permissions updated.'), 'updated');
+        add_settings_error(
+            'facamen_permissions',
+            'permissions_saved',
+            __('Permissions updated.'),
+            'updated'
+        );
     }
 
     public function get_roles() {
-        if (!function_exists('wp_roles')) {
-            require_once ABSPATH . 'wp-includes/class-wp-roles.php';
+
+        if ($this->roles_cache !== null) {
+            return $this->roles_cache;
         }
 
         $wp_roles = wp_roles();
@@ -109,20 +125,31 @@ class Facamen_Permissions {
             }
         }
 
-        return $filtered;
+        $this->roles_cache = $filtered;
+
+        return $this->roles_cache;
     }
 
     public function render_field($field) {
+
         $roles = $this->get_roles();
-        $selected = $this->options->get($field, []);
+        $selected = (array) $this->options->get($field, []);
 
         echo '<select name="' . esc_attr($field) . '[]" multiple class="facamen-select2">';
+
         foreach ($roles as $role => $label) {
-            $is_selected = in_array($role, $selected) || $role === 'administrator' ? 'selected' : '';
-            $is_disabled = $role === 'administrator' ? 'disabled' : '';
+
+            $is_selected = in_array($role, $selected, true) || $role === 'administrator'
+                ? 'selected'
+                : '';
+
+            $is_disabled = $role === 'administrator'
+                ? 'disabled'
+                : '';
+
             echo '<option value="' . esc_attr($role) . '" ' . $is_selected . ' ' . $is_disabled . '>' . esc_html($label) . '</option>';
         }
+
         echo '</select>';
     }
-
 }
